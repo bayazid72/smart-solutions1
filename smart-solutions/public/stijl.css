@@ -1,0 +1,110 @@
+/* Basisinstellingen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Lichtgrijze achtergrondkleur */
+    color: #333; /* Donkere tekstkleur voor contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Zorgt ervoor dat body minimaal de hoogte van het scherm heeft */
+}
+
+
+/* Navigatiebalk */
+nav {
+    background-color: #007bff; /* Blauw */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Witte tekstkleur in de navigatiebalk */
+    font-weight: bold;
+}
+
+/* Hoofdinhoud */
+main {
+    padding: 20px;
+    margin-top: 60px;
+    /* Zorgt ervoor dat de inhoud niet onder de vaste navigatiebalk valt */
+}
+
+/* Footer */
+footer {
+    background-color: #007bff; /* Blauw */
+    color: #fff; /* Witte tekstkleur in de footer */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto; /* Zorgt ervoor dat de footer onderaan blijft */
+    position: relative;
+}
+
+/* Algemene Stijlen voor Pagina's */
+h1 {
+    color: #007bff; /* Blauw voor de kopteksten */
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Formulieren */
+form {
+    background-color: #fff; /* Witte achtergrond voor formulieren */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centreert het formulier binnen de container */
+    max-width: 600px; /* Max breedte van het formulier */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #007bff; /* Blauw */
+    color: #fff; /* Witte tekstkleur */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Donkerder blauw bij hover */
+}
